@@ -1,0 +1,9 @@
+
+cannot load such file -- watir-classic
+gem install watir-classic
+
+
+
+gem install ffi
+cannot load such file -- ffi_c (LoadError)
+still error
