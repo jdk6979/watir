@@ -1,9 +1,55 @@
 
-cannot load such file -- watir-classic
+#cannot load such file -- watir-classic
 gem install watir-classic
 
 
-
+#cannot load such file -- ffi_c (LoadError)
 gem install ffi
-cannot load such file -- ffi_c (LoadError)
-still error
+still report error
+
+
+gem install watir-webdriver
+# dont work
+
+
+
+
+
+http://stackoverflow.com/questions/15078743/watir-installation
+I'm not sure what happened then, 
+but in case someone else runs into this problem here is what i did to get it working. 
+Install the watir-classic (as suggested), install ffi, uninstall ffi, install ffi again. 
+For some reason i had 2 variations of ffi (might be due to originally installing Ruby 64 bit?), 
+but I also uninstalled 64 bit Ruby and installed 32 bit to get this all working. 
+– breezy katt Feb 26 at 13:47
+
+
+
+
+
+on Centos
+browser = Watir::Browser.new
+
+#Selenium::WebDriver::Error::WebDriverError: Could not find Firefox binary (os=linux). 
+#Make sure Firefox is installed or set the path manually with Selenium::WebDriver::Firefox::Binary.path=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
